@@ -41,7 +41,7 @@ jobs:
         with:
           path: |
             skiasharp/externals/skia/third_party
-          key: ${{ runner.os }}-src-cache-${{ env.SkiaSharpVersion }}
+          key: ${{ runner.os }}-src-cache-${{ env.SkiaSharpVersion }}-x86
 
       - name: Prepare build skia
         working-directory: ${{github.workspace}}
