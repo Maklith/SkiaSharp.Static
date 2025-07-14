@@ -29,7 +29,7 @@ skia_use_xps = false
 win_sdk_version = "10.0.26100.0"
 
 clang_win =
-    "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/Llvm/x86"
+    "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/Llvm/x64"
 
 extra_cflags = [
   "/MT",
